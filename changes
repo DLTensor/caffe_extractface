@@ -1,0 +1,49 @@
+1. data_layer.hpp
+--------------------
+line 271
+vector<std::pair<std::string, int> > lines_;
+->
+vector<std::pair<std::string, std::vector<int> > > lines_;
+
+2. data_layer.cpp
+--------------------
+line 178
+top_label[item_id] = datum.label();
+->
+top_label[item_id * datum.label_size() + label_i] = datum.label(label_i);
+
+3. io.hpp
+---------------------
+line 92
+func 'ReadImageToDatum()' arg[1] from 'const int label' to 'const std::vector<int> label'
+
+4. io.cpp
+----------------------
+line 69
+arg of fun 'ReadImageToDatum', 'const int label' to 'const std::vector<int> label'
+
+line 91
+datum->set_label(label);
+->
+datum->add_label(label[label_i]);
+
+5. memory_data_layer.cpp
+-------------------------
+top_label[batch_item_id] = datum_vector[batch_item_id].label();
+->
+top_label[batch_item_id*label_num + label_i] = datum_vector[batch_item_id].label(label_i);
+
+6. image_data_layer.cpp
+--------------------------
+line 36
+lines_.push_back(std::make_pair(filename, vec_label));
+
+line 136
+top_label[item_id*datum.label_size()+label_i] = datum.label(label_i);
+
+7. convert_imageset.cpp
+--------------------------
+line 64
+lines.push_back(std::make_pair(filename, vec_label));
+
+
