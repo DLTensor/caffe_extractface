@@ -1,0 +1,14 @@
+/home/xn/git/caffe_extractface/tools/CMakeFiles/CMakeCXXCompilerId.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/caffe.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/compute_image_mean.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/convert_imageset.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/device_query.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/dump_network.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/extract_features.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/finetune_net.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/net_speed_benchmark.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/test_det_net.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/test_net.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/train_net.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/upgrade_net_proto_binary.bin.dir
+/home/xn/git/caffe_extractface/tools/CMakeFiles/upgrade_net_proto_text.bin.dir

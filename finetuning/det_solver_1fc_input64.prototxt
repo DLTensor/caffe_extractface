@@ -12,5 +12,6 @@ momentum: 0.9
 weight_decay: 0.0005
 #snapshot: 10000
 snapshot: 5000
-snapshot_prefix: "/home/xionghao/Desktop/caffe_det/finetuning/noWeights"
+#xn
+snapshot_prefix: "/home/xn/git/caffe-extractface/finetuning/noWeights"
 #solver_mode: 0

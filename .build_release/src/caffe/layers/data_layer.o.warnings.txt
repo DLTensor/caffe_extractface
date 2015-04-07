@@ -1,0 +1,3 @@
+src/caffe/layers/data_layer.cpp:186:4: warning: multi-line comment [-Wcomment]
+    // LOG(ERROR) << "label size " << datum.label_size() << " " << datum.label(0) \
+    ^

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test_net.bin.dir/test_net.o  -o test_net -rdynamic -lcaffe 

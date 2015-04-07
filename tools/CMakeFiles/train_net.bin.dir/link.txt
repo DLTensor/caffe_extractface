@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/train_net.bin.dir/train_net.o  -o train_net -rdynamic -lcaffe 

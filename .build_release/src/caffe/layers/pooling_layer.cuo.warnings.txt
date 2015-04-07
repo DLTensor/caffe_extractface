@@ -1,0 +1,1 @@
+nvcc error   : 'g++' died due to signal 2 

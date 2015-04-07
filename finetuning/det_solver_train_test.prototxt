@@ -12,5 +12,7 @@ momentum: 0.9
 weight_decay: 0.0005
 #snapshot: 10000
 snapshot: 5000
-snapshot_prefix: "/home/xionghao/Desktop/caffe_det/finetuning/fine_model/train_val_model"
+#snapshot_prefix: "/home/xionghao/Desktop/caffe_det/finetuning/fine_model/train_val_model"
+# modify_xn
+snapshot_prefix: "snapshorts/"
 #solver_mode: 0

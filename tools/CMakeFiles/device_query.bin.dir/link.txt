@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/device_query.bin.dir/device_query.o  -o device_query -rdynamic -lcaffe 

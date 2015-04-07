@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/caffe.bin.dir/caffe.o  -o caffe -rdynamic -lcaffe 

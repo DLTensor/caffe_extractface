@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/upgrade_net_proto_text.bin.dir/upgrade_net_proto_text.o  -o upgrade_net_proto_text -rdynamic -lcaffe 

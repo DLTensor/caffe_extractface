@@ -5,12 +5,14 @@ layers {
   name: "data"
   type: DATA
   data_param {
-    source: "/home/xionghao/Desktop/car_train_db"
+#    source: "/home/xionghao/Desktop/car_train_db"  modify_xn
+    source: "/home/xn/git/train" 
     batch_size: 64
   }
   transform_param {
     mirror: false
     crop_size: 0
+    # to modify_xn
     mean_file: "/home/xionghao/Desktop/car_mean.binaryproto"
   }
   include: { phase: TRAIN}
@@ -21,13 +23,16 @@ layers {
   name: "data"
   type: DATA
   data_param {
-    source: "/home/xionghao/Desktop/car_test_db"
+  #source: "/home/xionghao/Desktop/car_train_db"  
+    source: "/home/xn/git/test"
     batch_size: 64
   }
   transform_param {
     mirror: false
     crop_size: 0
-    mean_file: "/home/xionghao/Desktop/car_mean.binaryproto"
+    #mean_file: "/home/xionghao/Desktop/car_mean.binaryproto"
+    #to modify_xn
+
   }
   include: { phase: TEST}
 }

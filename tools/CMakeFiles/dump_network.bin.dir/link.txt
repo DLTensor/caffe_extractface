@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/dump_network.bin.dir/dump_network.o  -o dump_network -rdynamic -lcaffe 

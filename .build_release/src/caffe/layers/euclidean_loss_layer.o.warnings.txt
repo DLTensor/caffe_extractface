@@ -1,0 +1,6 @@
+src/caffe/layers/euclidean_loss_layer.cpp:37:3: warning: multi-line comment [-Wcomment]
+   // LOG(INFO)  << "bottom[0] " \
+   ^
+src/caffe/layers/euclidean_loss_layer.cpp:40:3: warning: multi-line comment [-Wcomment]
+   // LOG(INFO)  << "bottom[1] " \
+   ^

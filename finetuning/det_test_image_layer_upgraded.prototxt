@@ -5,12 +5,14 @@ layers {
   name: "data"
   type: IMAGE_DATA
   image_data_param {
-    source: "/home/xionghao/Desktop/abbr_imlist_test.txt"
+  #  source: "/home/xionghao/Desktop/abbr_imlist_test.txt"  modify_xn
+  source: "/home/xn/git/test.txt"
     batch_size: 64
   }
   transform_param {
     mirror: false
     crop_size: 0
+    # modify_xn
     mean_file: "/home/xionghao/Desktop/car_mean.binaryproto"
   }
 }

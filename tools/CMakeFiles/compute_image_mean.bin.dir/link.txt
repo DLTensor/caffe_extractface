@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/compute_image_mean.bin.dir/compute_image_mean.o  -o compute_image_mean -rdynamic -lcaffe 

@@ -1,0 +1,3 @@
+src/caffe/util/io.cpp:92:3: warning: multi-line comment [-Wcomment]
+   // LOG(ERROR) << "label size " << label.size() << " " << label[0] << " " << label[1] \
+   ^
